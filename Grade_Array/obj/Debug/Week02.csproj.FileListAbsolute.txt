@@ -1,0 +1,12 @@
+E:\課\C#\Week02\Week02\bin\Debug\Week02.exe.config
+E:\課\C#\Week02\Week02\obj\Debug\Week02.csprojResolveAssemblyReference.cache
+E:\課\C#\Week02\Week02\bin\Debug\Week02.exe
+E:\課\C#\Week02\Week02\bin\Debug\Week02.pdb
+E:\課\C#\Week02\Week02\obj\Debug\Week02.exe
+E:\課\C#\Week02\Week02\obj\Debug\Week02.pdb
+E:\Lesson\C#\Week02\Week02\bin\Debug\Week02.exe.config
+E:\Lesson\C#\Week02\Week02\obj\Debug\Week02.exe
+E:\Lesson\C#\Week02\Week02\obj\Debug\Week02.pdb
+E:\Lesson\C#\Week02\Week02\bin\Debug\Week02.exe
+E:\Lesson\C#\Week02\Week02\bin\Debug\Week02.pdb
+E:\Lesson\C#\Week02\Week02\obj\Debug\Week02.csprojResolveAssemblyReference.cache
