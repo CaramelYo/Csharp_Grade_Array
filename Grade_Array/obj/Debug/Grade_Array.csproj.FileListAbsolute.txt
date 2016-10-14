@@ -1,3 +1,9 @@
 E:\Lesson\C#\Grade_Array\Grade_Array\bin\Debug\Week02.exe.config
 E:\Lesson\C#\Grade_Array\Grade_Array\obj\Debug\Week02.exe
 E:\Lesson\C#\Grade_Array\Grade_Array\obj\Debug\Week02.pdb
+E:\Courses\C#\Grade_Array\Grade_Array\bin\Debug\Week02.exe.config
+E:\Courses\C#\Grade_Array\Grade_Array\obj\Debug\Week02.exe
+E:\Courses\C#\Grade_Array\Grade_Array\obj\Debug\Week02.pdb
+E:\Courses\C#\Grade_Array\Grade_Array\bin\Debug\Week02.exe
+E:\Courses\C#\Grade_Array\Grade_Array\bin\Debug\Week02.pdb
+E:\Courses\C#\Grade_Array\Grade_Array\obj\Debug\Grade_Array.csprojResolveAssemblyReference.cache

@@ -10,18 +10,19 @@ namespace Week02
     {
         public string[] name;
         public int[] chinese, english, math, number;
-        int size, i, temp;
+        int size, n, temp;
         string temp1;
+        
 
-        public int I
+        public int N
         {
             get
             {
-                return i;
+                return n;
             }
             set
             {
-                i = value;
+                n = value;
             }
         }
 
@@ -37,12 +38,27 @@ namespace Week02
         {
             name = new string[num];
             chinese = new int[num];
+
+            for (int i = 0; i < num; ++i)
+                chinese[i] = -1;
+
             english = new int[num];
             math = new int[num];
             number = new int[num];
             size = num;
-            i = 0;
+            n = 0;
             return;
+        }
+
+        public int FindEmpty()
+        {
+            for(int i = 0; i<size; ++i)
+            {
+                if (chinese[i] == -1)
+                    return i;
+            }
+
+            return -1;
         }
 
         public void Sorting()
@@ -119,19 +135,21 @@ namespace Week02
                 switch (mode)
                 {
                     case 1:
-                        if (stu.I < stu.Size)
+                        if (stu.N < stu.Size)
                         {
+                            int k = stu.FindEmpty();
+
                             Console.WriteLine("請輸入座號：");
-                            stu.number[stu.I] = int.Parse(Console.ReadLine()); ;
+                            stu.number[k] = int.Parse(Console.ReadLine()); ;
                             Console.WriteLine("請輸入姓名：");
-                            stu.name[stu.I] = Console.ReadLine().ToString();
+                            stu.name[k] = Console.ReadLine().ToString();
                             Console.WriteLine("請輸入國文成績：");
-                            stu.chinese[stu.I] = int.Parse(Console.ReadLine());
+                            stu.chinese[k] = int.Parse(Console.ReadLine());
                             Console.WriteLine("請輸入英文成績：");
-                            stu.english[stu.I] = int.Parse(Console.ReadLine());
+                            stu.english[k] = int.Parse(Console.ReadLine());
                             Console.WriteLine("請輸入數學成績：");
-                            stu.math[stu.I] = int.Parse(Console.ReadLine());
-                            ++stu.I;
+                            stu.math[k] = int.Parse(Console.ReadLine());
+                            ++stu.N;
                         }
                         else
                         {
